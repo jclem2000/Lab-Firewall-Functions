@@ -33,7 +33,7 @@ https://azfwfunctions.azurewebsites.net/api/allocate?code=[default function key]
 
 ### Dailydeallocate
 
-This is a Timer function set to 02:00 UTC (9:00pm CDT) that will deallocate the firewalls found.  Timer configuration is found in the [function.json](Deallocate/function.json) file in the Dailydeallocate folder.
+This is a Timer function set to 02:00 UTC (9:00pm CDT) that will deallocate the firewalls found.  Timer configuration is found in the [function.json](Dailydeallocate/function.json) file in the Dailydeallocate folder.
 
 ### Deallocate
 
