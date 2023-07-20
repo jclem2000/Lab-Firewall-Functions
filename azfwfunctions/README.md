@@ -1,6 +1,6 @@
 # azfwfunctions
 
-An Azure HTTP triggered Powershell function to provide status and control for allocating or deallocating Azure Firewalls.
+An Azure Function resource with HTTP triggered or TIMER triggered Powershell code to provide status and control for allocating or deallocating Azure Firewalls.
 
 ## Overview
 
