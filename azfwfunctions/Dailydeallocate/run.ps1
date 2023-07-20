@@ -50,7 +50,7 @@ if ($null -ne $jobstats) {
     foreach ($job in $jobstats) {
         Write-Host $job.name" "$job.state
     }
-    Write-Host "Use togglefw/status API to check firewall state(s) in 3-10 minutes."
+    Write-Host "Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes."
 }
 
 # Write an information log with the current time.

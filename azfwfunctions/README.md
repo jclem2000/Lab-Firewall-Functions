@@ -60,7 +60,7 @@ Scheduled Job Status
 Long Running Operation for 'Set-AzFirewall' Running
 Long Running Operation for 'Set-AzFirewall' Running
 
-Use togglefw/status API to check firewall state(s) in 3-10 minutes.
+Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes.
 ```
 
 ### Dailydeallocate
@@ -106,7 +106,7 @@ Scheduled Job Status
 Long Running Operation for 'Set-AzFirewall' Running
 Long Running Operation for 'Set-AzFirewall' Running
 
-Use togglefw/status API to check firewall state(s) in 3-10 minutes.
+Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes.
 ```
 
 ### Status
@@ -156,6 +156,7 @@ Scheduled Job Status
 Long Running Operation for 'Set-AzFirewall' Completed
 Long Running Operation for 'Set-AzFirewall' Completed
 ```
+
 ### Toggle
 
 This function toggles the allocation state of the the firewalls found.
@@ -193,6 +194,6 @@ Scheduled Job Status
 Long Running Operation for 'Set-AzFirewall' Running
 Long Running Operation for 'Set-AzFirewall' Running
 
-Use togglefw/status API to check firewall state(s) in 3-10 minutes.
+Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes.
 ```
 
