@@ -27,6 +27,8 @@ There are five API functions defined:
 
 This function sets the firewalls found to allocated.
 
+Function API URL:
+
 ```text
 https://azfwfunctions.azurewebsites.net/api/allocate?code=[default function key]
 ```
@@ -79,6 +81,8 @@ Then click on one of the log dates.
 
 This function sets the firewalls found to deallocated.
 
+Function API URL:
+
 ```text
 https://azfwfunctions.azurewebsites.net/api/deallocate?code=[default function key]
 ```
@@ -112,6 +116,8 @@ Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes.
 ### Status
 
 This function returns the status of the firewalls found.
+
+Function API URL:
 
 ```text
 https://azfwfunctions.azurewebsites.net/api/status?code=[default function key]
@@ -161,6 +167,8 @@ Long Running Operation for 'Set-AzFirewall' Completed
 
 This function toggles the allocation state of the the firewalls found.
 
+Function API URL:
+
 ```text
 https://azfwfunctions.azurewebsites.net/api/toggle?code=[default function key]
 ```
@@ -196,4 +204,3 @@ Long Running Operation for 'Set-AzFirewall' Running
 
 Use azfwfunctions/status API to check firewall state(s) in 3-10 minutes.
 ```
-
