@@ -4,6 +4,10 @@ using namespace System.Net
 # Input bindings are passed in via param block.
 param($Request, $TriggerMetadata)
 
+# Parse $Request for parameters
+$funcName = $Request.Params.funcName
+$fwName = $Request.Params.fwName
+
 # Get User Assigned Managed Identity
 Connect-AzAccount -Identity 
 
@@ -12,9 +16,20 @@ Write-Host "This HTTP triggered Azure function is beginning processing."
 # Start the Web Response body
 $body = "This HTTP triggered Azure function is beginning processing."
 $body += "`n"
+$body += "  Function Name: "
+$body += $funcName
+$body += ", Firewall Name: "
+$body += $fwName
+$body += "`n"
+
     
 # Get all Firewalls in the Subscription
-$fws = Get-AzFirewall
+if ($fwName -ne "all") {
+    $fws = Get-AzFirewall -Name $fwName
+}
+else {
+    $fws = Get-AzFirewall
+}
 
 # Process each Firewall
 foreach ($fw in $fws) {

@@ -3,6 +3,7 @@ using namespace System.Net
 
 # Input bindings are passed in via param block.
 param($Request, $TriggerMetadata)
+param($fw, $fwName)
 
 # Get User Assigned Managed Identity
 Connect-AzAccount -Identity 
