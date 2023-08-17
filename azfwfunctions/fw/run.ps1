@@ -37,8 +37,8 @@ if ($fwName -eq "all") {
 else {
     $fws = Get-AzFirewall -Name $fwName
     if ($null -eq $fws) {
-        Write-Host "Firewall not found. Ending further processing."
-        $body += "Firewall not found. Ending further processing"
+        Write-Host "  Firewall not found. Ending further processing."
+        $body += "  Firewall not found. Ending further processing"
         $body += "`n"
         $continueprocessing = $false
     }
