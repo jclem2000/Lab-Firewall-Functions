@@ -45,3 +45,7 @@ This timer function is controlled by a configuration file for scheduling.  The t
 The function was developed using VSCode.  The Microsoft published Azure Functions extension is used to package and deploy the function(s) into the Azure platform.  The code is available in Github [here.](https://github.com/jclem2000/Lab-Firewall-Functions)
 
 The Github Repo contains instructions for deployment and information about each of the functions.  More information is [here](azfwfunctions/README.md)
+
+## Deployment
+
+Instructions on deploying an Azure Function from VSCode is available in Microsoft learning [here.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=powershell)
