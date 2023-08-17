@@ -68,23 +68,23 @@ Typical API response:
 ```text
 This HTTP triggered Azure function is beginning processing.
 
-Resource Group: rg-test-fw
-Firewall: jl-test-fw
+Resource Group: rg-first-test
+Firewall: fw-first-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Allocating FW.
-        VNet: jl-test-vnet
-        ip: jl-test-fw-pip
-        manip: jl-test-fw-mgmt-pip
+        VNet: vnet-first-test
+        ip: fw-first-test-pip
+        manip: fw-first-test-mgmt-pip
   Schedule change to Firewall.
     Firewall change scheduled.
 
-Resource Group: a203578-dt1-musea2-rg001
-Firewall: a203578fw
+Resource Group: rg-second-test
+Firewall: fw-second-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Allocating FW.
-        VNet: a203578-dt1-musea2-vnet001
-        ip: a203578fw-pip
-        manip: a203578fw-mgmt-pip
+        VNet: vnet-second-test
+        ip: fw-second-test-pip
+        manip: fw-second-test-mgmt-pip
   Schedule change to Firewall.
     Firewall change scheduled.
 
@@ -110,15 +110,15 @@ Typical API response:
 ```text
 This HTTP triggered Azure function is beginning processing.
 
-Resource Group: rg-test-fw
-Firewall: jl-test-fw
+Resource Group: rg-first-test
+Firewall: fw-first-test
   Firewall in Succeeded state.
     Firewall has Private IP.  Deallocating FW.
   Schedule change to Firewall.
     Firewall change scheduled.
 
-Resource Group: a203578-dt1-musea2-rg001
-Firewall: a203578fw
+Resource Group: rg-second-test
+Firewall: fw-second-test
   Firewall in Succeeded state.
     Firewall has Private IP.  Deallocating FW.
   Schedule change to Firewall.
@@ -146,13 +146,13 @@ Typical API response:
 ```text
 This HTTP triggered Azure function is beginning processing.
 
-Resource Group: rg-test-fw
-Firewall: jl-test-fw
+Resource Group: rg-first-test
+Firewall: fw-first-test
   Firewall not in Succeeded state.
     State: Updating
 
-Resource Group: a203578-dt1-musea2-rg001
-Firewall: a203578fw
+Resource Group: rg-second-test
+Firewall: fw-second-test
   Firewall not in Succeeded state.
     State: Updating
 
@@ -166,13 +166,13 @@ or another API response:
 ```text
 This HTTP triggered Azure function is beginning processing.
 
-Resource Group: rg-test-fw
-Firewall: jl-test-fw
+Resource Group: rg-first-test
+Firewall: fw-first-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Firewall is Deallocated.
 
-Resource Group: a203578-dt1-musea2-rg001
-Firewall: a203578fw
+Resource Group: rg-second-test
+Firewall: fw-second-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Firewall is Deallocated.
 
@@ -196,23 +196,23 @@ Typical API response:
 ```text
 This HTTP triggered Azure function is beginning processing.
 
-Resource Group: rg-test-fw
-Firewall: jl-test-fw
+Resource Group: rg-first-test
+Firewall: fw-first-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Allocating FW.
-        VNet: jl-test-vnet
-        ip: jl-test-fw-pip
-        manip: jl-test-fw-mgmt-pip
+        VNet: vnet-first-test
+        ip: fw-first-test-pip
+        manip: fw-first-test-mgmt-pip
   Schedule change to Firewall.
     Firewall update scheduled in background.
 
-Resource Group: a203578-dt1-musea2-rg001
-Firewall: a203578fw
+Resource Group: rg-second-test
+Firewall: fw-second-test
   Firewall in Succeeded state.
     Firewall does not have Private IP.  Allocating FW.
-        VNet: a203578-dt1-musea2-vnet001
-        ip: a203578fw-pip
-        manip: a203578fw-mgmt-pip
+        VNet: vnet-second-test
+        ip: fw-second-test-pip
+        manip: fw-second-test-mgmt-pip
   Schedule change to Firewall.
     Firewall update scheduled in background.
 
