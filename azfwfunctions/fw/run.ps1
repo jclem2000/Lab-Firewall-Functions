@@ -177,6 +177,15 @@ if ($continueprocessing) {
         $body += "`n"
     }
 }
+
+$dc = Get-Date
+Write-Host "Function processing completed: $dc`."
+$body += "`n"
+$body += "Function processing completed: "
+$body += $dc
+$body += ".`n"
+
+
 # Push Web Response
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
         StatusCode = [HttpStatusCode]::OK
