@@ -10,6 +10,10 @@ This folder contains the Azure Functions that are used to manage firewalls.  Eac
 
 Instructions on deploying an Azure Function from VSCode is available in Microsoft learning [here.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=powershell)
 
+It is easy in VSCode.  Highlight the files in the folder (azfwfunctions) and right click.  Select "Deploy to Function App..." and follow the prompts.
+
+![Deploy to Function App](../images/deploy_to_function_app.png)
+
 ## Using the Functions
 
 The functions are triggered by HTTP requests or by timer.  The functions are secured by a default function key.  The functions are written in Powershell.
