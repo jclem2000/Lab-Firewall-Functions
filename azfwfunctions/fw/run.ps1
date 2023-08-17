@@ -183,7 +183,7 @@ Write-Host "Function processing completed: $dc`."
 $body += "`n"
 $body += "Function processing completed: "
 $body += $dc
-$body += ".`n"
+$body += " UTC.`n"
 
 
 # Push Web Response
